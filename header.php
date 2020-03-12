@@ -17,12 +17,8 @@
             </div>
         </aside>
         <div class="menu" id="menu">
-            <ul class="menu__list">
-                <li>
-                    <button class="menu__offer" id="menuBtn" aria-label="otwórz menu">Oferta</button>
-                </li>
-                <li class="menu__title">Nadruki Reklamowe</li>
-            </ul>
+                <button class="menu__offer" id="menuBtn" aria-label="otwórz menu">Oferta</button>
+                <p class="menu__title">Nadruki Reklamowe</p>
         </div>
         <nav class="sidenav" id="nav">
             <ul class="sidenav__list">

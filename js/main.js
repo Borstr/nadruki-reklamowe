@@ -1,3 +1,4 @@
+// Header
 (function() {
     const nav = document.querySelector('#nav');
     const navBackground = document.querySelector('#navBackground');
@@ -15,14 +16,8 @@
     navBackground.addEventListener('click', hideNavigation);
 
     window.addEventListener('scroll', () => {
-        if ((
-                pageYOffset > lastPageYoffset &&
-                !socials.classList.contains('socials--up') &&
-                socials.classList.contains('socials--down')
-            ) ||
-            nav.classList.contains('sidenav--right')) {
-            hideSocials();
-        } else if (pageYOffset < lastPageYoffset) showSocials();
+        if ((pageYOffset < lastPageYoffset && socials.classList.contains('socials--down') && !socials.classList.contains('socials--up')) || nav.classList.contains('sidenav--right')) hideSocials();
+        else if (pageYOffset > lastPageYoffset) showSocials();
 
         lastPageYoffset = pageYOffset;
     });

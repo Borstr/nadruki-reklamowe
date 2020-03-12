@@ -39,26 +39,20 @@
     box-shadow: 0 3px 4px rgba(0, 0, 0, .12), 0 4px 5px rgba(0, 0, 0, .24);
     padding: 0 16px;
     z-index: 12;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.25rem;
     &--up {
         animation: 100ms menuSlideUp ease-in-out forwards;
     }
     &--down {
         animation: 100ms menuSlideDown ease-in-out forwards;
     }
-    &__list {
-        margin: 0;
-        padding: 0;
-        list-style-type: none;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        height: 100%;
-        font-weight: bold;
-        font-size: 1.25rem;
-    }
     &__offer {
         border: none;
-        margin: none;
+        margin: 0;
         background-color: transparent;
         font-weight: bold;
         font-size: 1.25rem;

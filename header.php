@@ -7,18 +7,24 @@
     <?php wp_head(); ?>
 </head>
     <header>
-        <aside class="socials">
-        
+        <aside class="socials" id="socials">
+            <div class="socials__icons">
+
+            </div>
+            <div class="socials__contact">
+                <span>zadzwoń <span class="socials__expanded">- 52 381 81 41</span></span>
+                <span>napisz @ <span class="socials__expanded">biuro@nadrukireklamowe.com.pl</span></span>
+            </div>
         </aside>
-        <div class="menu">
+        <div class="menu" id="menu">
             <ul class="menu__list">
                 <li>
-                    <button class="menu__offer" aria-label="otwórz menu">Oferta</button>
+                    <button class="menu__offer" id="menuBtn" aria-label="otwórz menu">Oferta</button>
                 </li>
                 <li class="menu__title">Nadruki Reklamowe</li>
             </ul>
         </div>
-        <nav class="sidenav">
+        <nav class="sidenav" id="nav">
             <ul class="sidenav__list">
                 <li>
                     <a class="sidenav__item" href="/">Strona główna</a>
@@ -85,6 +91,6 @@
                 </li>
             </ul>
         </nav>
-        <button class="sidenav__background" aria-label="close menu"></button>
+        <button class="sidenav__background" id="navBackground" aria-label="close menu"></button>
     </header>
 <body>

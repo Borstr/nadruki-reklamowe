@@ -170,8 +170,33 @@ h3 {
   font-size: 1.25rem;
   color: #000; }
 
+.socials {
+  background-color: #F3F3F3;
+  width: 100vw;
+  height: 120px;
+  position: fixed;
+  top: -120px;
+  left: 0; }
+  .socials--up {
+    animation: 100ms socialsSlideUp ease-in-out forwards; }
+  .socials--down {
+    animation: 100ms socialsSlideDown ease-in-out forwards; }
+  .socials__icons {
+    width: 100%;
+    height: 60px; }
+  .socials__contact {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    padding: 0 1rem; }
+  .socials__expanded {
+    display: none; }
+
 .menu {
-  width: 100%;
+  width: 100vw;
   height: 60px;
   background-color: #E0FFFF;
   position: fixed;
@@ -180,6 +205,10 @@ h3 {
   box-shadow: 0 3px 4px rgba(0, 0, 0, 0.12), 0 4px 5px rgba(0, 0, 0, 0.24);
   padding: 0 16px;
   z-index: 12; }
+  .menu--up {
+    animation: 100ms menuSlideUp ease-in-out forwards; }
+  .menu--down {
+    animation: 100ms menuSlideDown ease-in-out forwards; }
   .menu__list {
     margin: 0;
     padding: 0;
@@ -196,18 +225,24 @@ h3 {
     background-color: transparent;
     font-weight: bold;
     font-size: 1.25rem;
-    cursor: pointer; }
+    cursor: pointer;
+    height: 60px; }
+  .menu__title {
+    line-height: 60px; }
 
 .sidenav {
   position: fixed;
-  left: 0;
+  left: -300px;
   top: 60px;
-  max-width: 80vw;
-  width: 400px;
+  width: 300px;
   height: calc(100vh - 60px);
   background-color: #A9E5E5;
   z-index: 1;
   overflow-y: scroll; }
+  .sidenav--right {
+    animation: 300ms navSlideRight ease-in-out forwards; }
+  .sidenav--left {
+    animation: 300ms navSlideLeft ease-in-out forwards; }
   .sidenav__list {
     margin: 0;
     padding: 0;
@@ -232,7 +267,57 @@ h3 {
     width: 100vw;
     height: calc(100vh - 60px);
     position: fixed;
-    left: 0;
+    left: -100vw;
     top: 60px; }
+    .sidenav__background--right {
+      animation: 300ms backgroundSlideRight ease-in-out forwards; }
+    .sidenav__background--left {
+      animation: 300ms backgroundSlideLeft ease-in-out forwards; }
 
-@keyframes navitemSlideRight {}@keyframes navItemSlideLeft {}@keyframes backgroundSlideRight {}@keyframes backgroundSlideLeft {}
+@keyframes navSlideRight {
+  from {
+    left: -300px; }
+  to {
+    left: 0; } }
+
+@keyframes navSlideLeft {
+  from {
+    left: 0; }
+  to {
+    left: -300px; } }
+
+@keyframes backgroundSlideRight {
+  from {
+    left: -100vw; }
+  to {
+    left: 0; } }
+
+@keyframes backgroundSlideLeft {
+  from {
+    left: 0; }
+  to {
+    left: -100vw; } }
+
+@keyframes socialsSlideUp {
+  from {
+    top: 0; }
+  to {
+    top: -120px; } }
+
+@keyframes socialsSlideDown {
+  from {
+    top: -120px; }
+  to {
+    top: 0; } }
+
+@keyframes menuSlideUp {
+  from {
+    top: 120px; }
+  to {
+    top: 0; } }
+
+@keyframes menuSlideDown {
+  from {
+    top: 0; }
+  to {
+    top: 120px; } }

@@ -1,15 +1,50 @@
-.socials {}
+.socials {
+    background-color: #F3F3F3;
+    width: 100vw;
+    height: 120px;
+    position: fixed;
+    top: -120px;
+    left: 0;
+    &--up {
+        animation: 100ms socialsSlideUp ease-in-out forwards;
+    }
+    &--down {
+        animation: 100ms socialsSlideDown ease-in-out forwards;
+    }
+    &__icons {
+        width: 100%;
+        height: 60px;
+    }
+    &__contact {
+        font-weight: bold;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 60px;
+        width: 100%;
+        padding: 0 1rem;
+    }
+    &__expanded {
+        display: none;
+    }
+}
 
 .menu {
-    width: 100%;
+    width: 100vw;
     height: 60px;
-    background-color: #E0FFFF;
+    background-color: $main_light;
     position: fixed;
     top: 0;
     left: 0;
     box-shadow: 0 3px 4px rgba(0, 0, 0, .12), 0 4px 5px rgba(0, 0, 0, .24);
     padding: 0 16px;
     z-index: 12;
+    &--up {
+        animation: 100ms menuSlideUp ease-in-out forwards;
+    }
+    &--down {
+        animation: 100ms menuSlideDown ease-in-out forwards;
+    }
     &__list {
         margin: 0;
         padding: 0;
@@ -28,20 +63,28 @@
         font-weight: bold;
         font-size: 1.25rem;
         cursor: pointer;
+        height: 60px;
     }
-    &__title {}
+    &__title {
+        line-height: 60px;
+    }
 }
 
 .sidenav {
     position: fixed;
-    left: 0;
+    left: -300px;
     top: 60px;
-    max-width: 80vw;
-    width: 400px;
+    width: 300px;
     height: calc(100vh - 60px);
-    background-color: #A9E5E5;
+    background-color: $main_mid;
     z-index: 1;
     overflow-y: scroll;
+    &--right {
+        animation: 300ms navSlideRight ease-in-out forwards;
+    }
+    &--left {
+        animation: 300ms navSlideLeft ease-in-out forwards;
+    }
     &__list {
         margin: 0;
         padding: 0;
@@ -55,11 +98,11 @@
         padding: .5rem 1rem;
         font-size: 20px;
         text-decoration: none;
-        border: 1px solid #00AED2;
+        border: 1px solid $main_dark;
         transition: 300ms ease-in-out background-color;
         &:hover,
         &:focus {
-            background-color: #00AED2;
+            background-color: $main_dark;
         }
     }
     &__background {
@@ -70,11 +113,77 @@
         width: 100vw;
         height: calc(100vh - 60px);
         position: fixed;
-        left: 0;
+        left: -100vw;
         top: 60px;
+        &--right {
+            animation: 300ms backgroundSlideRight ease-in-out forwards;
+        }
+        &--left {
+            animation: 300ms backgroundSlideLeft ease-in-out forwards;
+        }
     }
-    @keyframes navitemSlideRight {}
-    @keyframes navItemSlideLeft {}
-    @keyframes backgroundSlideRight {}
-    @keyframes backgroundSlideLeft {}
+    @keyframes navSlideRight {
+        from {
+            left: -300px;
+        }
+        to {
+            left: 0;
+        }
+    }
+    @keyframes navSlideLeft {
+        from {
+            left: 0;
+        }
+        to {
+            left: -300px;
+        }
+    }
+    @keyframes backgroundSlideRight {
+        from {
+            left: -100vw;
+        }
+        to {
+            left: 0;
+        }
+    }
+    @keyframes backgroundSlideLeft {
+        from {
+            left: 0;
+        }
+        to {
+            left: -100vw;
+        }
+    }
+    @keyframes socialsSlideUp {
+        from {
+            top: 0;
+        }
+        to {
+            top: -120px;
+        }
+    }
+    @keyframes socialsSlideDown {
+        from {
+            top: -120px;
+        }
+        to {
+            top: 0;
+        }
+    }
+    @keyframes menuSlideUp {
+        from {
+            top: 120px;
+        }
+        to {
+            top: 0;
+        }
+    }
+    @keyframes menuSlideDown {
+        from {
+            top: 0;
+        }
+        to {
+            top: 120px;
+        }
+    }
 }

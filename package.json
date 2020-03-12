@@ -1,12 +1,20 @@
 {
-  "name": "nadrek",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+    "name": "nadrek",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "scss": "node-sass scss -o css",
+        "watch:scss": "node-sass --watch scss -o css",
+        "minify-css": "css-minify -d css",
+        "build": "npm run scss && npm run minify-css",
+        "dev": "npm run watch:scss"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "css-minify": "^1.0.1",
+        "node-sass": "^4.13.1"
+    }
 }

@@ -1,5 +1,11 @@
-.siteTitle {
-    margin: 0 1rem;
-    margin-bottom: 2rem;
-    margin-top: 76px;
+.frontpage {
+    &__title {
+        margin: 0 1rem;
+        margin-bottom: 2rem;
+        margin-top: 76px;
+    }
+    &__subtitle {
+        padding: 0 1rem;
+        margin-bottom: 1rem;
+    }
 }

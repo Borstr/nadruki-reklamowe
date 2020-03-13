@@ -180,11 +180,18 @@ h3 {
   .postlist__post:last-of-type {
     margin-bottom: 0; }
 
+.postlist__link {
+  text-decoration: none; }
+
 .postlist__imageContainer {
-  height: 200px;
+  min-height: 200px;
   width: 100vw;
   background-color: #00AED2;
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.12), 0 0 6px rgba(0, 0, 0, 0.24); }
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.12), 0 0 6px rgba(0, 0, 0, 0.24);
+  padding: .5rem 1rem; }
+  .postlist__imageContainer > img {
+    width: 100%;
+    height: auto; }
 
 .postlist__title {
   margin-top: 8px;
@@ -193,6 +200,36 @@ h3 {
 
 .postlist__excerpt {
   padding: 0 1rem; }
+
+.postcontent__details {
+  color: #707070;
+  font-weight: 300;
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+  display: block; }
+
+.postcontent p {
+  margin-bottom: 1rem;
+  padding: 0 1rem; }
+
+.postcontent figure {
+  width: 100%;
+  padding: .5rem;
+  background-color: #00AED2;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.12), 0 0 6px rgba(0, 0, 0, 0.24); }
+
+.postcontent figcaption {
+  margin: 0;
+  margin-top: 8px;
+  color: #fff;
+  font-weight: bold; }
+
+.postcontent h1,
+.postcontent h2 {
+  padding: 0 1rem; }
+
+.postcontent h2 {
+  margin-bottom: 8px; }
 
 .socials {
   background-color: #F3F3F3;
@@ -240,12 +277,12 @@ h3 {
     animation: 300ms menuSlideDown ease-in-out forwards; }
   .menu__offer {
     border: none;
-    margin: 0;
     background-color: transparent;
     font-weight: bold;
     font-size: 1.25rem;
     cursor: pointer;
-    height: 60px; }
+    height: 60px;
+    padding: 0; }
   .menu__title {
     line-height: 60px; }
 
@@ -275,6 +312,8 @@ h3 {
     font-size: 20px;
     text-decoration: none;
     border: 1px solid #00AED2;
+    border-left: none;
+    border-right: none;
     transition: 300ms ease-in-out background-color; }
     .sidenav__item:hover, .sidenav__item:focus {
       background-color: #00AED2; }
@@ -364,7 +403,21 @@ h3 {
   .footer__link {
     color: #707070; }
 
-.siteTitle {
+.frontpage__title {
   margin: 0 1rem;
   margin-bottom: 2rem;
   margin-top: 76px; }
+
+.frontpage__subtitle {
+  padding: 0 1rem;
+  margin-bottom: 1rem; }
+
+.single {
+  margin-top: 76px; }
+  .single__link {
+    margin-bottom: 1rem;
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    color: #707070;
+    padding: 0 1rem; }

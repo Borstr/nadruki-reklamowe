@@ -52,12 +52,12 @@
     }
     &__offer {
         border: none;
-        margin: 0;
         background-color: transparent;
         font-weight: bold;
         font-size: 1.25rem;
         cursor: pointer;
         height: 60px;
+        padding: 0;
     }
     &__title {
         line-height: 60px;
@@ -93,6 +93,8 @@
         font-size: 20px;
         text-decoration: none;
         border: 1px solid $main_dark;
+        border-left: none;
+        border-right: none;
         transition: 300ms ease-in-out background-color;
         &:hover,
         &:focus {

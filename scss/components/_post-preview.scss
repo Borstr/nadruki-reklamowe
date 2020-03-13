@@ -8,11 +8,19 @@
             margin-bottom: 0;
         }
     }
+    &__link {
+        text-decoration: none;
+    }
     &__imageContainer {
-        height: 200px;
+        min-height: 200px;
         width: 100vw;
         background-color: $main_dark;
         box-shadow: 0 0 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .24);
+        padding: .5rem 1rem;
+        &>img {
+            width: 100%;
+            height: auto;
+        }
     }
     &__title {
         margin-top: 8px;

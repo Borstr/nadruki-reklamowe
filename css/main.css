@@ -363,3 +363,8 @@ h3 {
     margin: .5rem 0; }
   .footer__link {
     color: #707070; }
+
+.siteTitle {
+  margin: 0 1rem;
+  margin-bottom: 2rem;
+  margin-top: 76px; }

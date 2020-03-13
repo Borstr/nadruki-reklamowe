@@ -1,0 +1,25 @@
+.postlist {
+    &__post {
+        margin: 2rem 0;
+        &:first-of-type {
+            margin-top: 0;
+        }
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+    }
+    &__imageContainer {
+        height: 200px;
+        width: 100vw;
+        background-color: $main_dark;
+        box-shadow: 0 0 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .24);
+    }
+    &__title {
+        margin-top: 8px;
+        margin-bottom: 4px;
+        padding: 0 1rem;
+    }
+    &__excerpt {
+        padding: 0 1rem;
+    }
+}

@@ -23,7 +23,8 @@
     });
 
     function showNavigation() {
-        hideSocials();
+        socials.classList.remove('socials--down');
+        menu.classList.remove('menu--down');
 
         nav.classList.remove('sidenav--left');
         nav.classList.add('sidenav--right');

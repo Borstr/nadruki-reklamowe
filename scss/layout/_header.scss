@@ -6,10 +6,10 @@
     top: -120px;
     left: 0;
     &--up {
-        animation: 100ms socialsSlideUp ease-in-out forwards;
+        animation: 300ms socialsSlideUp ease-in-out forwards;
     }
     &--down {
-        animation: 100ms socialsSlideDown ease-in-out forwards;
+        animation: 300ms socialsSlideDown ease-in-out forwards;
     }
     &__icons {
         width: 100%;
@@ -45,10 +45,10 @@
     font-weight: bold;
     font-size: 1.25rem;
     &--up {
-        animation: 100ms menuSlideUp ease-in-out forwards;
+        animation: 300ms menuSlideUp ease-in-out forwards;
     }
     &--down {
-        animation: 100ms menuSlideDown ease-in-out forwards;
+        animation: 300ms menuSlideDown ease-in-out forwards;
     }
     &__offer {
         border: none;

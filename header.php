@@ -3,22 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Nadruki Reklamowe - o nas, poligrafii, sitodruku i więcej...</title>
     <?php wp_head(); ?>
 </head>
     <header>
         <aside class="socials" id="socials">
             <div class="socials__icons">
-
+                <a rel="noopener norefferer nofollow" target="_blank" href="https://twitter.com/NadrukiR"><img src="/wordpress/wp-content/themes/nadrek/images/twitter-icon.png" alt="twitter icon" class="socials__icon"></a>
+                <a rel="noopener norefferer nofollow" target="_blank" href="https://www.facebook.com/balonyznadrukiem"><img src="/wordpress/wp-content/themes/nadrek/images/facebook-icon.png" alt="facebook icon" class="socials__icon"></a>
+                <!-- <a rel="noopener norefferer nofollow" href=""><img src="/wordpress/wp-content/themes/nadrek/images/instagram-icon.png" alt="instagram icon" class="socials__icon"></a> -->
+                <!-- <a rel="noopener norefferer nofollow" href=""><img src="/wordpress/wp-content/themes/nadrek/images/linkedin-icon.png" alt="linkedin icon" class="socials__icon"></a> -->
             </div>
             <div class="socials__contact">
-                <span>zadzwoń <span class="socials__expanded">- 52 381 81 41</span></span>
-                <span>napisz @ <span class="socials__expanded">biuro@nadrukireklamowe.com.pl</span></span>
+                <a href="tel:52 381 81 41">zadzwoń <span class="socials__expanded">- 52 381 81 41</span></a>
+                <a href="mailto:biuro@nadrukireklamowe.com.pl">napisz @ <span class="socials__expanded">biuro@nadrukireklamowe.com.pl</span></a>
             </div>
         </aside>
         <div class="menu" id="menu">
-                <button class="menu__offer" id="menuBtn" aria-label="otwórz menu">Oferta</button>
-                <p class="menu__title">Nadruki Reklamowe</p>
+                <button class="menu__offer" id="menuBtn" aria-label="otwórz menu">
+                    Oferta 
+                    <svg xmlns="http://www.w3.org/2000/svg" id="chevron" class="chevron" viewBox="0 0 10.349 17.743">
+                        <path 
+                            d="M1990,138.468l6.727,6.75-6.727,6.75" 
+                            transform="translate(-1987.879 -136.346)" 
+                            fill="none" 
+                            stroke="#707070" 
+                            stroke-linecap="round" 
+                            stroke-width="3"
+                        />
+                    </svg>
+                </button>
+                <a href="/" class="menu__title">
+                    Nadruki Reklamowe
+                    <img src="/wordpress/wp-content/themes/nadrek/images/ikona-nadruki.png" alt="linkedin icon" class="menu__logo">
+                </a>
         </div>
         <nav class="sidenav" id="nav">
             <ul class="sidenav__list">

@@ -5,6 +5,7 @@
     const menuBtn = document.querySelector('#menuBtn');
     const socials = document.querySelector('#socials');
     const menu = document.querySelector('#menu');
+    const chevron = document.querySelector('#chevron');
 
     let lastPageYoffset = 0;
 
@@ -26,34 +27,75 @@
         socials.classList.remove('socials--down');
         menu.classList.remove('menu--down');
 
-        nav.classList.remove('sidenav--left');
-        nav.classList.add('sidenav--right');
-
-        navBackground.classList.remove('sidenav__background--left');
-        navBackground.classList.add('sidenav__background--right');
+        addAndRemoveClasses([{
+                el: nav,
+                removeClass: 'sidenav--left',
+                addClass: 'sidenav--right'
+            },
+            {
+                el: navBackground,
+                removeClass: 'sidenav__background--left',
+                addClass: 'sidenav__background--right'
+            },
+            {
+                el: chevron,
+                removeClass: 'chevron--left',
+                addClass: 'chevron--right'
+            }
+        ]);
     }
 
     function hideNavigation() {
-        nav.classList.remove('sidenav--right');
-        nav.classList.add('sidenav--left');
-
-        navBackground.classList.remove('sidenav__background--right');
-        navBackground.classList.add('sidenav__background--left');
+        addAndRemoveClasses([{
+                el: nav,
+                removeClass: 'sidenav--right',
+                addClass: 'sidenav--left'
+            },
+            {
+                el: navBackground,
+                removeClass: 'sidenav__background--right',
+                addClass: 'sidenav__background--left'
+            },
+            {
+                el: chevron,
+                removeClass: 'chevron--right',
+                addClass: 'chevron--left'
+            }
+        ]);
     }
 
     function hideSocials() {
-        socials.classList.remove('socials--down');
-        socials.classList.add('socials--up');
-
-        menu.classList.remove('menu--down');
-        menu.classList.add('menu--up');
+        addAndRemoveClasses([{
+                el: socials,
+                removeClass: 'socials--down',
+                addClass: 'socials--up'
+            },
+            {
+                el: menu,
+                removeClass: 'menu--down',
+                addClass: 'menu--up'
+            }
+        ]);
     }
 
     function showSocials() {
-        socials.classList.add('socials--down');
-        socials.classList.remove('socials--up');
+        addAndRemoveClasses([{
+                el: socials,
+                removeClass: 'socials--up',
+                addClass: 'socials--down'
+            },
+            {
+                el: menu,
+                removeClass: 'menu--up',
+                addClass: 'menu--down'
+            }
+        ]);
+    }
 
-        menu.classList.add('menu--down');
-        menu.classList.remove('menu--up');
+    function addAndRemoveClasses(classes) {
+        classes.forEach(({ el, removeClass, addClass }) => {
+            el.classList.remove(removeClass);
+            el.classList.add(addClass);
+        });
     }
 })();

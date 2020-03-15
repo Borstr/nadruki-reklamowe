@@ -5,6 +5,7 @@
     position: fixed;
     top: -120px;
     left: 0;
+    z-index: 9999;
     &--up {
         animation: 300ms socialsSlideUp ease-in-out forwards;
     }
@@ -243,5 +244,11 @@
             opacity: 100%;
             transform: rotate(0);
         }
+    }
+}
+
+@media(min-width: 1024px) {
+    .sidenav {
+        left: 0;
     }
 }

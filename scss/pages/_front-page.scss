@@ -1,11 +1,28 @@
-.frontpage {
-    &__title {
-        margin: 0 1rem;
-        margin-bottom: 2rem;
+    .frontpage {
         margin-top: 76px;
+        display: grid;
+        grid-template-rows: min-content min-content auto;
+        &__title {
+            margin-bottom: 1.5rem;
+            padding: 0 1rem;
+        }
+        &__subtitle {
+            margin-bottom: 1rem;
+            padding: 0 1rem;
+        }
     }
-    &__subtitle {
-        padding: 0 1rem;
-        margin-bottom: 1rem;
+    
+    @media(min-width: 568px) {
+        .frontpage {
+            padding: 0 1rem;
+        }
     }
-}
+    
+    @media(min-width: 1024px) {
+        .frontpage {
+            margin-left: 300px;
+            &__title {
+                margin-bottom: 2rem;
+            }
+        }
+    }

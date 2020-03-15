@@ -176,33 +176,37 @@ h3 {
   font-weight: bold;
   color: #000; }
 
-.postlist__post {
-  margin: 2rem 0; }
-  .postlist__post:first-of-type {
-    margin-top: 0; }
-  .postlist__post:last-of-type {
-    margin-bottom: 0; }
-
-.postlist__link {
-  text-decoration: none; }
-
-.postlist__imageContainer {
-  min-height: 200px;
-  width: 100vw;
-  background-color: #00AED2;
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.12), 0 0 6px rgba(0, 0, 0, 0.24);
-  padding: .5rem 1rem; }
-  .postlist__imageContainer > img {
+.postlist {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2rem 1rem;
+  align-items: stretch; }
+  .postlist__imageContainer {
     width: 100%;
-    height: auto; }
+    background-color: #00AED2;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.12), 0 0 6px rgba(0, 0, 0, 0.24);
+    padding: .5rem 1rem; }
+    .postlist__imageContainer > img {
+      width: 100%;
+      height: auto; }
+  .postlist__title {
+    margin-top: 8px;
+    margin-bottom: 4px;
+    padding: 0 1rem; }
+  .postlist__excerpt {
+    padding: 0 1rem; }
 
-.postlist__title {
-  margin-top: 8px;
-  margin-bottom: 4px;
-  padding: 0 1rem; }
+@media (min-width: 568px) {
+  .postlist {
+    grid-template-columns: repeat(2, 1fr); }
+    .postlist__post {
+      margin: 0; }
+    .postlist__imageContainer {
+      width: 100%; } }
 
-.postlist__excerpt {
-  padding: 0 1rem; }
+@media (min-width: 1366px) {
+  .postlist {
+    grid-template-columns: repeat(3, 1fr); } }
 
 .postcontent__details {
   color: #707070;
@@ -240,7 +244,8 @@ h3 {
   height: 120px;
   position: fixed;
   top: -120px;
-  left: 0; }
+  left: 0;
+  z-index: 9999; }
   .socials--up {
     animation: 300ms socialsSlideUp ease-in-out forwards; }
   .socials--down {
@@ -432,6 +437,10 @@ h3 {
     opacity: 100%;
     transform: rotate(0); } }
 
+@media (min-width: 1024px) {
+  .sidenav {
+    left: 0; } }
+
 .footer {
   background-color: #E0FFFF;
   width: 100%;
@@ -459,14 +468,26 @@ h3 {
       margin-top: .5rem;
       text-decoration: none; }
 
-.frontpage__title {
-  margin: 0 1rem;
-  margin-bottom: 2rem;
-  margin-top: 76px; }
+.frontpage {
+  margin-top: 76px;
+  display: grid;
+  grid-template-rows: min-content min-content auto; }
+  .frontpage__title {
+    margin-bottom: 1.5rem;
+    padding: 0 1rem; }
+  .frontpage__subtitle {
+    margin-bottom: 1rem;
+    padding: 0 1rem; }
 
-.frontpage__subtitle {
-  padding: 0 1rem;
-  margin-bottom: 1rem; }
+@media (min-width: 568px) {
+  .frontpage {
+    padding: 0 1rem; } }
+
+@media (min-width: 1024px) {
+  .frontpage {
+    margin-left: 300px; }
+    .frontpage__title {
+      margin-bottom: 2rem; } }
 
 .single {
   margin-top: 76px; }

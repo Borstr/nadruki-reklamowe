@@ -1,19 +1,10 @@
 .postlist {
-    &__post {
-        margin: 2rem 0;
-        &:first-of-type {
-            margin-top: 0;
-        }
-        &:last-of-type {
-            margin-bottom: 0;
-        }
-    }
-    &__link {
-        text-decoration: none;
-    }
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem 1rem;
+    align-items: stretch;
     &__imageContainer {
-        min-height: 200px;
-        width: 100vw;
+        width: 100%;
         background-color: $main_dark;
         box-shadow: 0 0 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .24);
         padding: .5rem 1rem;
@@ -29,5 +20,23 @@
     }
     &__excerpt {
         padding: 0 1rem;
+    }
+}
+
+@media(min-width: 568px) {
+    .postlist {
+        grid-template-columns: repeat(2, 1fr);
+        &__post {
+            margin: 0;
+        }
+        &__imageContainer {
+            width: 100%;
+        }
+    }
+}
+
+@media(min-width: 1366px) {
+    .postlist {
+        grid-template-columns: repeat(3, 1fr);
     }
 }

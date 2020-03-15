@@ -25,18 +25,12 @@
 
 @media(min-width: 568px) {
     .postlist {
-        grid-template-columns: repeat(2, 1fr);
-        &__post {
-            margin: 0;
-        }
-        &__imageContainer {
-            width: 100%;
-        }
+        grid-template-columns: 1fr 1fr;
     }
 }
 
 @media(min-width: 1366px) {
     .postlist {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }

@@ -4,37 +4,63 @@
     box-shadow: 0 -3px 4px rgba(0, 0, 0, .12), 0 -4px 5px rgba(0, 0, 0, .24);
     padding: 1rem;
     margin-top: 2rem;
-    & .contact {
-        &__item {
-            margin: 1rem 0;
-            &:first-of-type {
-                margin-top: .5rem;
-            }
-        }
-        &__subtitle {
-            font-weight: bold;
-        }
-        &__data {
-            &:not(:first-of-type) {
-                margin-top: .5rem;
-            }
-        }
-    }
-    &__item {
-        margin: 2rem 0;
-    }
+    display: grid;
+    grid-gap: 1.5rem 1rem;
     &__subtitle {
         font-weight: bold;
     }
-    &__mapitem {
-        margin: .5rem 0;
+    &__contact {
+        display: grid;
+        grid-row-gap: 1rem;
+    }
+    &__data {
+        margin-bottom: 1rem;
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+    }
+    &__list {
+        padding-top: .5rem;
+        display: grid;
+        grid-row-gap: .5rem;
     }
     &__link {
         color: #707070;
         &--solo {
             display: block;
             margin-top: .5rem;
-            text-decoration: none;
         }
+    }
+}
+
+@media(min-width: 768px) {
+    .footer {
+        &__item--1 {
+            grid-area: item1;
+        }
+        &__item--2 {
+            grid-area: item2;
+        }
+        &__item--3 {
+            grid-area: item3;
+        }
+        &__item--4 {
+            grid-area: item4;
+        }
+        &__subtitle {
+            font-weight: bold;
+        }
+        &__sitemap {
+            grid-area: sitemap;
+        }
+        grid-template: "item1 sitemap" "item2 sitemap" "item3 sitemap" "item4 sitemap" / auto;
+    }
+}
+
+@media(min-width: 1024px) {
+    .footer {
+        width: calc(100% - 300px);
+        margin-left: 300px;
+        grid-template: "item2 item1 sitemap" "item3 item1 sitemap" "item4 item1 sitemap" ". item1 sitemap" ". . sitemap" / 1fr 1fr 1fr;
     }
 }

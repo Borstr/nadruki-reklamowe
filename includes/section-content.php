@@ -1,6 +1,6 @@
 <ul class="postlist">
     <?php if(have_posts()): while(have_posts()): the_post(); ?>
-        <li class="postlist__post">
+        <li>
             <a href="<?php the_permalink(); ?>">
                 <div class="postlist__imageContainer">
                     <?php the_post_thumbnail(); ?>

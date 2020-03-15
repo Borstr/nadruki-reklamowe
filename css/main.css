@@ -198,15 +198,11 @@ h3 {
 
 @media (min-width: 568px) {
   .postlist {
-    grid-template-columns: repeat(2, 1fr); }
-    .postlist__post {
-      margin: 0; }
-    .postlist__imageContainer {
-      width: 100%; } }
+    grid-template-columns: 1fr 1fr; } }
 
 @media (min-width: 1366px) {
   .postlist {
-    grid-template-columns: repeat(3, 1fr); } }
+    grid-template-columns: 1fr 1fr 1fr; } }
 
 .postcontent__details {
   color: #707070;
@@ -446,27 +442,49 @@ h3 {
   width: 100%;
   box-shadow: 0 -3px 4px rgba(0, 0, 0, 0.12), 0 -4px 5px rgba(0, 0, 0, 0.24);
   padding: 1rem;
-  margin-top: 2rem; }
-  .footer .contact__item {
-    margin: 1rem 0; }
-    .footer .contact__item:first-of-type {
-      margin-top: .5rem; }
-  .footer .contact__subtitle {
-    font-weight: bold; }
-  .footer .contact__data:not(:first-of-type) {
-    margin-top: .5rem; }
-  .footer__item {
-    margin: 2rem 0; }
+  margin-top: 2rem;
+  display: grid;
+  grid-gap: 1.5rem 1rem; }
   .footer__subtitle {
     font-weight: bold; }
-  .footer__mapitem {
-    margin: .5rem 0; }
+  .footer__contact {
+    display: grid;
+    grid-row-gap: 1rem; }
+  .footer__data {
+    margin-bottom: 1rem; }
+    .footer__data:last-of-type {
+      margin-bottom: 0; }
+  .footer__list {
+    padding-top: .5rem;
+    display: grid;
+    grid-row-gap: .5rem; }
   .footer__link {
     color: #707070; }
     .footer__link--solo {
       display: block;
-      margin-top: .5rem;
-      text-decoration: none; }
+      margin-top: .5rem; }
+
+@media (min-width: 768px) {
+  .footer {
+    grid-template: "item1 sitemap" "item2 sitemap" "item3 sitemap" "item4 sitemap" / auto; }
+    .footer__item--1 {
+      grid-area: item1; }
+    .footer__item--2 {
+      grid-area: item2; }
+    .footer__item--3 {
+      grid-area: item3; }
+    .footer__item--4 {
+      grid-area: item4; }
+    .footer__subtitle {
+      font-weight: bold; }
+    .footer__sitemap {
+      grid-area: sitemap; } }
+
+@media (min-width: 1024px) {
+  .footer {
+    width: calc(100% - 300px);
+    margin-left: 300px;
+    grid-template: "item2 item1 sitemap" "item3 item1 sitemap" "item4 item1 sitemap" ". item1 sitemap" ". . sitemap" / 1fr 1fr 1fr; } }
 
 .frontpage {
   margin-top: 76px;

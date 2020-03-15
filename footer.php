@@ -1,34 +1,34 @@
         <footer class="footer">
-            <div class="contact">
+            <div class="footer__contact footer__item--1">
                 <h3 class="contact__title">Dane kontaktowe:</h3>
-                <div class="contact__item">
-                    <p class="contact__subtitle">Biuro</p>
-                    <p class="contact__data">
+                <div>
+                    <p class="footer__subtitle">Biuro</p>
+                    <p class="footer__data">
                         <a href="mailto:">e-mail: biuro@nadrukireklamowe.pl</a><br>
                         85-875 Bydgoszcz, ul. Miechowska 1<br>
                         <a href="tel:52 381 81 41">tel. - 52 381 81 41</a><br>
                         <a href="tel:52 515 31 00">tel. - 52 515 31 00</a><br>
                         NIP 5542066541<br>
                     </p>
-                    <p class="contact__data">
+                    <p class="footer__data">
                         Dane do przelewu:<br>
                         Santander Bank Polska S.A.<br>
                         57 1090  1072 0000 0001 3198 8643<br>
                         Nadruki Reklamowe Michał Strzelewicz<br>
                     </p>
                 </div>
-                <div class="contact__item">
+                <div>
                     <h3 contact__title></h3>
-                    <p class="contact__subtitle">Katarzyna Strzelewicz</p>
+                    <p class="footer__subtitle">Katarzyna Strzelewicz</p>
                     <p class="contact__data">
                         zamówienia/projekty<br>
                         <a href="mailto:biuro@nadrukireklamowe.pl">e-mail: biuro@nadrukireklamowe.pl</a><br>
                         <a href="tel:606 711 620">tel. kom.  - 606 711 620</a><br>
                     </p>
                 </div>
-                <div class="contact__item">
+                <div>
                     <h3 contact__title></h3>
-                    <p class="contact__subtitle">Małgorzata Zawadka</p>
+                    <p class="footer__subtitle">Małgorzata Zawadka</p>
                     <p class="contact__data">
                         zamówienia/projekty<br>
                         <a href="mailto:gosia@balonyreklamowe.com.pl">e-mail: gosia@balonyreklamowe.com.pl</a><br>
@@ -36,7 +36,7 @@
                     </p>
                 </div>
             </div>
-            <div class="footer__item">
+            <div class="footer__item--2">
                 <p class="footer__subtitle">Zamówisz u nas również na:</p>
                 <a href="" class="footer__link">
                     <a href="https://allegro.pl/uzytkownik/michalstr?order=m" target="_blank" rel="noopener noreferrer nofollow">
@@ -46,84 +46,84 @@
                     </a>
                 </a>
             </div>
-            <div class="footer__item">
+            <div class="footer__item--3">
                 <p class="footer__subtitle">Zapraszamy także do naszego sklepu z gadżetami odblaskowymi:</p>
                 <a href="https://www.kamizelkaodblaskowa.pl" class="footer__link footer__link--solo" target="_blank" rel="noopener noreferrer">
                     www.kamizelkaodblaskowa.pl
                 </a>
             </div>
-            <div class="footer__item">
+            <div class="footer__item--4">
                 <a href="https://wizytowka.rzetelnafirma.pl/H2BRBBRI" target="_blank" rel="noopener noreferrer nofollow"> 
                     <img src="/wordpress/wp-content/themes/nadrek/images/rzetelna-firma.png" alt="rzetelna firma">
                 </a>
             </div>
-            <div class="footer__item">
+            <div class="footer__sitemap">
                 <p class="footer__subtitle">Mapa strony:</p>
-                <ul>
-                    <li class="footer__mapitem">
+                <ul class="footer__list">
+                    <li>
                         <a href="/" class="footer__link">/</a>
                     </li>
-                    <li class="footer__mapitem">
+                    <li>
                         <a href="/dlugopisy.html" class="footer__link">/długopisy</a>
                     </li>
-                    <li class="footer__mapitem">
+                    <li>
                         <a href="/balony.html" class="footer__link">/balony</a>
                     </li>
-                    <li class="footer__mapitem">
+                    <li>
                         <a href="/torby-papierowe-z-nadrukiem.html" class="footer__link">/torby papierowe</a>
                     </li>
-                    <li class="footer__mapitem">
+                    <li>
                         <a href="/reklamowki.html" class="footer__link">/reklamówki</a>
                     </li>
-                    <li class="footer__mapitem">
+                    <li>
                         <a href="/torby-bawelniane-materialowe.html" class="footer__link">/torby bawełniane, materiałowe</a>
                     </li>
-                    <li class="footer__mapitem">
+                    <li>
                         <a href="/koszulki-z-nadrukiem.html" class="footer__link">/koszulki</a>
                     </li>
-                    <li class="footer__mapitem">
+                    <li>
                         <a href="/koszulki-damskie-z-nadrukiem.html" class="footer__link">/koszulki damskie</a>
                     </li>
-                    <li class="footer__mapitem">
+                    <li>
                         <a href="/koszulki-dzieciece.html" class="footer__link">/koszulki dziecięce</a>
                     </li>
-                    <li class="footer__mapitem">
+                    <li>
                         <a href="/bluzy.html" class="footer__link">/bluzy</a>
                     </li>
-                    <li class="footer__mapitem">
+                    <li>
                         <a href="/kurtki.html" class="footer__link">/kurtki</a>
                     </li>
-                    <li class="footer__mapitem">
+                    <li>
                         <a href="/czapki-z-daszkiem.html" class="footer__link">/czapki z daszkiem</a>
                     </li>
-                    <li class="footer__mapitem">
+                    <li>
                         <a href="/przypinki.html" class="footer__link">/przypinki, buttony, badziki</a>
                     </li>
-                    <li class="footer__mapitem">
+                    <li>
                         <a href="/podkladki.html" class="footer__link">/podkładki</a>
                     </li>
-                    <li class="footer__mapitem">
+                    <li>
                         <a href="/kubki.html" class="footer__link">/kubki</a>
                     </li>
-                    <li class="footer__mapitem">
+                    <li>
                         <a href="/parasole.html" class="footer__link">/parasole</a>
                     </li>
-                    <li class="footer__mapitem">
+                    <li>
                         <a href="/otwieracze.html" class="footer__link">/otwieracze</a>
                     </li>
-                    <li class="footer__mapitem">
+                    <li>
                         <a href="/puzzle.html" class="footer__link">/puzzle</a>
                     </li>
-                    <li class="footer__mapitem">
+                    <li>
                         <a href="/zapalniczki.html" class="footer__link">/zapalniczki</a>
                     </li>
-                    <li class="footer__mapitem">
+                    <li>
                         <a href="/kontakt.html" class="footer__link">/kontakt</a>
                     </li>
-                    <li class="footer__mapitem">
+                    <li>
                         <a href="/blog" class="footer__link">/blog</a>
                     </li>
-                    <li class="footer__mapitem">
+                    <li>
                         <a href="/blog/archiwum" class="footer__link">/archiwum</a>
                     </li>
                 </ul>

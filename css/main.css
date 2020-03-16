@@ -200,10 +200,6 @@ h3 {
   .postlist {
     grid-template-columns: 1fr 1fr; } }
 
-@media (min-width: 1366px) {
-  .postlist {
-    grid-template-columns: 1fr 1fr 1fr; } }
-
 .postcontent {
   font-size: 18px;
   line-height: 1.5em; }
@@ -269,7 +265,7 @@ h3 {
   .socials__icons {
     height: 60px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     align-content: center;
     justify-items: center; }
   .socials__icon {
@@ -541,9 +537,7 @@ h3 {
 
 @media (min-width: 1024px) {
   .footer {
-    width: calc(100% - 300px);
-    margin-left: 300px;
-    grid-template: "item2 item1 sitemap" "item3 item1 sitemap" "item4 item1 sitemap" ". item1 sitemap" ". . sitemap" / 1fr 1fr 1fr; } }
+    grid-template: ". item2 item1 sitemap ." ". item3 item1 sitemap ." ". item4 item1 sitemap ." ". . item1 sitemap ." ". . . sitemap ." / 1fr 300px 300px 300px 1fr; } }
 
 .frontpage {
   margin-top: 76px;
@@ -562,7 +556,9 @@ h3 {
 
 @media (min-width: 1024px) {
   .frontpage {
-    margin-left: 300px; }
+    margin: 0 auto;
+    max-width: 700px;
+    margin-top: 76px; }
     .frontpage__title {
       margin-bottom: 2rem; } }
 

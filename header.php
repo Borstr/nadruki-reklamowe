@@ -11,8 +11,8 @@
             <div class="socials__icons">
                 <a rel="noopener norefferer nofollow" target="_blank" href="https://twitter.com/NadrukiR"><img src="/wordpress/wp-content/themes/nadrek/images/twitter-icon.png" alt="twitter icon" class="socials__icon"></a>
                 <a rel="noopener norefferer nofollow" target="_blank" href="https://www.facebook.com/balonyznadrukiem"><img src="/wordpress/wp-content/themes/nadrek/images/facebook-icon.png" alt="facebook icon" class="socials__icon"></a>
-                <!-- <a rel="noopener norefferer nofollow" href=""><img src="/wordpress/wp-content/themes/nadrek/images/instagram-icon.png" alt="instagram icon" class="socials__icon"></a> -->
-                <!-- <a rel="noopener norefferer nofollow" href=""><img src="/wordpress/wp-content/themes/nadrek/images/linkedin-icon.png" alt="linkedin icon" class="socials__icon"></a> -->
+                <a rel="noopener norefferer nofollow" href="#"><img src="/wordpress/wp-content/themes/nadrek/images/instagram-icon.png" alt="instagram icon" class="socials__icon"></a>
+                <a rel="noopener norefferer nofollow" href="#"><img src="/wordpress/wp-content/themes/nadrek/images/linkedin-icon.png" alt="linkedin icon" class="socials__icon"></a>
             </div>
             <div class="socials__contact">
                 <a href="tel:52 381 81 41">zadzwoń <span class="socials__expanded">- 52 381 81 41</span></a>

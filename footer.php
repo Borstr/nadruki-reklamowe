@@ -1,5 +1,5 @@
         <footer class="footer">
-            <div class="footer__contact footer__item--1">
+            <div class="footer__item--1 footer__item">
                 <h3 class="contact__title">Dane kontaktowe:</h3>
                 <div>
                     <p class="footer__subtitle">Biuro</p>
@@ -36,7 +36,7 @@
                     </p>
                 </div>
             </div>
-            <div class="footer__item--2">
+            <div class="footer__item--2 footer__item">
                 <p class="footer__subtitle">Zamówisz u nas również na:</p>
                 <a href="" class="footer__link">
                     <a href="https://allegro.pl/uzytkownik/michalstr?order=m" target="_blank" rel="noopener noreferrer nofollow">
@@ -46,13 +46,13 @@
                     </a>
                 </a>
             </div>
-            <div class="footer__item--3">
+            <div class="footer__item--3 footer__item">
                 <p class="footer__subtitle">Zapraszamy także do naszego sklepu z gadżetami odblaskowymi:</p>
                 <a href="https://www.kamizelkaodblaskowa.pl" class="footer__link footer__link--solo" target="_blank" rel="noopener noreferrer">
                     www.kamizelkaodblaskowa.pl
                 </a>
             </div>
-            <div class="footer__item--4">
+            <div class="footer__item--4 footer__item">
                 <a href="https://wizytowka.rzetelnafirma.pl/H2BRBBRI" target="_blank" rel="noopener noreferrer nofollow"> 
                     <img src="/wordpress/wp-content/themes/nadrek/images/rzetelna-firma.png" alt="rzetelna firma">
                 </a>

@@ -2,10 +2,13 @@
     background-color: $main_light;
     width: 100%;
     box-shadow: 0 -3px 4px rgba(0, 0, 0, .12), 0 -4px 5px rgba(0, 0, 0, .24);
-    padding: 1rem;
+    padding: 2rem 1rem;
     margin-top: 2rem;
     display: grid;
     grid-gap: 1.5rem 1rem;
+    & * {
+        color: $light_text_color;
+    }
     &__subtitle {
         font-weight: bold;
     }
@@ -23,10 +26,15 @@
     &__list {
         padding-top: .5rem;
         display: grid;
-        grid-row-gap: .5rem;
+        grid-row-gap: 1rem;
     }
     &__link {
-        color: #707070;
+        color: $link_color;
+        transition: 300ms ease-in-out color;
+        &:hover,
+        &:focus {
+            color: $link_color_hover;
+        }
     }
 }
 

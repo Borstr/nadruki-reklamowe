@@ -18,7 +18,7 @@
 
     window.addEventListener('scroll', () => {
         if ((pageYOffset < lastPageYoffset && socials.classList.contains('socials--down') && !socials.classList.contains('socials--up')) || nav.classList.contains('sidenav--right')) hideSocials();
-        else if (pageYOffset > lastPageYoffset) showSocials();
+        else if ((pageYOffset - lastPageYoffset) >= 15) showSocials();
 
         lastPageYoffset = pageYOffset;
     });

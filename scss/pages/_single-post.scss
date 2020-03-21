@@ -1,5 +1,6 @@
 .single {
     margin-top: 76px;
+    margin-bottom: 2rem;
     &__link {
         line-height: 2rem;
         text-decoration: none;
@@ -12,12 +13,15 @@
 @media(min-width: 768px) {
     .single {
         padding: 0 1rem;
+        width: 768px;
+        margin: 0 auto;
+        margin-top: 76px;
     }
 }
 
 @media(min-width: 1024px) {
     .single {
-        width: 700px;
+        width: 1024px;
         margin: 0 auto;
         margin-top: 76px;
     }

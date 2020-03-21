@@ -28,7 +28,7 @@
                             d="M1990,138.468l6.727,6.75-6.727,6.75" 
                             transform="translate(-1987.879 -136.346)" 
                             fill="none" 
-                            stroke="#707070" 
+                            stroke="#f0c05a" 
                             stroke-linecap="round" 
                             stroke-width="3"
                         />

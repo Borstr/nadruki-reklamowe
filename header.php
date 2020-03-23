@@ -9,11 +9,11 @@
     <header>
         <aside class="socials" id="socials">
             <div class="socials__icons">
-                <a rel="noopener norefferer nofollow" target="_blank" href="https://twitter.com/NadrukiR"><img src="/wordpress/wp-content/themes/nadrek/images/twitter-icon.png" alt="twitter icon" class="socials__icon"></a>
-                <a rel="noopener norefferer nofollow" target="_blank" href="https://www.facebook.com/balonyznadrukiem"><img src="/wordpress/wp-content/themes/nadrek/images/facebook-icon.png" alt="facebook icon" class="socials__icon"></a>
-                <a rel="noopener norefferer nofollow" href="#"><img src="/wordpress/wp-content/themes/nadrek/images/instagram-icon.png" alt="instagram icon" class="socials__icon"></a>
-                <a rel="noopener norefferer nofollow" href="#"><img src="/wordpress/wp-content/themes/nadrek/images/linkedin-icon.png" alt="linkedin icon" class="socials__icon"></a>
-                <a rel="noopener norefferer nofollow" href="https://www.youtube.com/channel/UCaKZLi3IEPZX-DRi5R83PVg"><img src="/wordpress/wp-content/themes/nadrek/images/youtube-icon.png" alt="youtube icon" class="socials__icon"></a>
+                <a rel="noopener norefferer nofollow" target="_blank" href="https://twitter.com/NadrukiR"><img src="/blog/wp-content/themes/nadrek/images/twitter-icon.png" alt="twitter icon" class="socials__icon"></a>
+                <a rel="noopener norefferer nofollow" target="_blank" href="https://www.facebook.com/balonyznadrukiem"><img src="/blog/wp-content/themes/nadrek/images/facebook-icon.png" alt="facebook icon" class="socials__icon"></a>
+                <a rel="noopener norefferer nofollow" href="#"><img src="/blog/wp-content/themes/nadrek/images/instagram-icon.png" alt="instagram icon" class="socials__icon"></a>
+                <a rel="noopener norefferer nofollow" href="#"><img src="/blog/wp-content/themes/nadrek/images/linkedin-icon.png" alt="linkedin icon" class="socials__icon"></a>
+                <a rel="noopener norefferer nofollow" href="https://www.youtube.com/channel/UCaKZLi3IEPZX-DRi5R83PVg"><img src="/blog/wp-content/themes/nadrek/images/youtube-icon.png" alt="youtube icon" class="socials__icon"></a>
             </div>
             <div class="socials__contact">
                 <a href="tel:52 381 81 41">zadzwoń <span class="socials__expanded">- 52 381 81 41</span></a>
@@ -36,7 +36,7 @@
                 </button>
                 <a href="/" class="menu__title">
                     Nadruki Reklamowe
-                    <img src="/wordpress/wp-content/themes/nadrek/images/ikona-nadruki.png" alt="linkedin icon" class="menu__logo">
+                    <img src="/blog/wp-content/themes/nadrek/images/ikona-nadruki.png" alt="linkedin icon" class="menu__logo">
                 </a>
         </div>
         <nav class="sidenav" id="nav">

@@ -36,7 +36,7 @@
                 </button>
                 <a href="/" class="menu__title">
                     Nadruki Reklamowe
-                    <img src="/blog/wp-content/themes/nadrek/images/ikona-nadruki.png" alt="nadruki reklamowe logo" class="menu__logo">
+                    <img src="/blog/wp-content/uploads/2020/03/ikona-nadruki-1.png" alt="nadruki reklamowe logo" class="menu__logo">
                 </a>
         </div>
         <nav class="sidenav" id="nav">

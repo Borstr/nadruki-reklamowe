@@ -54,7 +54,7 @@
             </div>
             <div class="footer__item--4 footer__item">
                 <a href="https://wizytowka.rzetelnafirma.pl/H2BRBBRI" target="_blank" rel="noopener noreferrer nofollow"> 
-                    <img src="/blog/wp-content/themes/nadrek/images/rzetelna-firma.png" alt="rzetelna firma">
+                    <img src="/blog/wp-content/uploads/2020/03/rzetelna-firma-1.png" alt="rzetelna firma">
                 </a>
             </div>
             <div class="footer__sitemap">

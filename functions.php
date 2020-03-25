@@ -1,7 +1,7 @@
 <?php
 
 function load_css() {
-    wp_register_style('main', get_template_directory_uri() . '/css/main.css', array(), false, 'all');
+    wp_register_style('main', get_template_directory_uri() . '/css-dist/main.min.css', array(), false, 'all');
 
     wp_enqueue_style('main');
 }
@@ -16,6 +16,6 @@ add_action('wp_enqueue_scripts', 'load_css');
 add_action('wp_enqueue_scripts', 'load_js');
 remove_filter ('the_excerpt', 'wpautop');
 remove_filter('term_description','wpautop');
-add_theme_support( 'post-thumbnails' );
+add_theme_support( 'post-thumbnails');
 
 remove_action('wp_head', 'wp_generator');

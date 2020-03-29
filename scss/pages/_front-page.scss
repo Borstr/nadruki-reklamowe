@@ -6,19 +6,21 @@
             margin-bottom: 1.5rem;
             padding: 0 1rem;
             color: #000;
-            text-align: center;
         }
         &__subtitle {
             margin-bottom: 1rem;
             padding: 0 1rem;
             color: #000;
-            text-align: center;
         }
     }
     
     @media(min-width: 568px) {
         .frontpage {
             padding: 0 1rem;
+            &__title,
+            &__subtitle {
+                text-align: center;
+            }
         }
     }
     

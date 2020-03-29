@@ -5,10 +5,8 @@
                 <div class="postlist__imageContainer">
                     <?php the_post_thumbnail(); ?>
                 </div>
-                <div class="postlist__info">
-                    <h3 class="postlist__title"><?php the_title(); ?></h3>
-                    <p class="postlist__excerpt"><?php the_excerpt(); ?></p>
-                </div>
+                <p class="postlist__details"><?php the_date();?></p>
+                <h3 class="postlist__title"><?php the_title(); ?></h3>
             </a>
         </li>
     <?php endwhile; else: endif; ?>

@@ -27,10 +27,13 @@
         padding-top: .5rem;
         display: grid;
         grid-row-gap: 1rem;
+        grid-template-rows: repeat(auto-fill, 1rem);
     }
     &__link {
         color: $link_color;
         transition: 300ms ease-in-out color;
+        width: 100%;
+        display: block;
         &:hover,
         &:focus {
             color: $link_color_hover;

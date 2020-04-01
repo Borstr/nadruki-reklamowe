@@ -552,10 +552,13 @@ h3 {
   .footer__list {
     padding-top: .5rem;
     display: grid;
-    grid-row-gap: 1rem; }
+    grid-row-gap: 1rem;
+    grid-template-rows: repeat(auto-fill, 1rem); }
   .footer__link {
     color: #f0f0f0;
-    transition: 300ms ease-in-out color; }
+    transition: 300ms ease-in-out color;
+    width: 100%;
+    display: block; }
     .footer__link:hover, .footer__link:focus {
       color: #c0c0c0; }
 

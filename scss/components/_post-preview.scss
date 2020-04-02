@@ -35,7 +35,7 @@
     .postlist {
         grid-template-columns: 1fr 1fr;
         &__imageContainer {
-            height: calc((100vw - 3rem) / 2 * .75);
+            height: auto;
         }
     }
 }
@@ -44,7 +44,7 @@
     .postlist {
         grid-template-columns: repeat(3, 1fr);
         &__imageContainer {
-            height: calc((100vw - 4rem) / 3 * .75);
+            height: auto;
         }
     }
 }
@@ -53,7 +53,7 @@
     .postlist {
         grid-template-columns: repeat(6, 1fr);
         &__imageContainer {
-            height: calc((100vw - 7rem) / 6 * .75);
+            height: auto;
         }
         &__link {
             &:hover,

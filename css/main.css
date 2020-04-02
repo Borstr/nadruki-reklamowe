@@ -196,7 +196,7 @@ h3 {
     color: #000;
     align-content: start; }
   .postlist__details {
-    color: #a0a0a0;
+    color: #606060;
     font-weight: bold;
     padding: 0 .5rem; }
   .postlist__title {
@@ -207,19 +207,19 @@ h3 {
   .postlist {
     grid-template-columns: 1fr 1fr; }
     .postlist__imageContainer {
-      height: calc((100vw - 3rem) / 2 * .75); } }
+      height: auto; } }
 
 @media (min-width: 1024px) {
   .postlist {
     grid-template-columns: repeat(3, 1fr); }
     .postlist__imageContainer {
-      height: calc((100vw - 4rem) / 3 * .75); } }
+      height: auto; } }
 
 @media (min-width: 1366px) {
   .postlist {
     grid-template-columns: repeat(6, 1fr); }
     .postlist__imageContainer {
-      height: calc((100vw - 7rem) / 6 * .75); }
+      height: auto; }
     .postlist__link:hover .postlist__title, .postlist__link:focus .postlist__title {
       color: #f0c05a; } }
 

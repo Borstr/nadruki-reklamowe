@@ -158,7 +158,7 @@ a {
 
 body,
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', 'Arial', sans-serif;
   color: #212121; }
 
 h1 {
@@ -184,7 +184,7 @@ h3 {
   align-items: stretch; }
   .postlist__imageContainer {
     width: 100%;
-    height: calc((100vw - 2rem) * .75); }
+    height: auto; }
     .postlist__imageContainer > img {
       width: 100%;
       height: 100%; }
@@ -293,7 +293,7 @@ h3 {
   .socials__icons {
     height: 60px;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     align-content: center;
     justify-items: center; }
   .socials__icon {
@@ -359,6 +359,10 @@ h3 {
   z-index: 1;
   overflow-y: scroll;
   padding: 0 1rem; }
+  .sidenav::-webkit-scrollbar {
+    background-color: #0f4c81; }
+  .sidenav::-webkit-scrollbar-thumb {
+    background-color: #f0c05a; }
   .sidenav * {
     color: #fff; }
   .sidenav--right {

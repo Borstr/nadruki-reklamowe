@@ -32,7 +32,7 @@
     &__icons {
         height: 60px;
         display: grid;
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         align-content: center;
         justify-items: center;
     }
@@ -111,6 +111,12 @@
     z-index: 1;
     overflow-y: scroll;
     padding: 0 1rem;
+    &::-webkit-scrollbar {
+        background-color: $main_light;
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: $main_complementary_light;
+    }
     & * {
         color: $light_text_color;
     }

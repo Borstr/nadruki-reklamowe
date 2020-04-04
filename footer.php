@@ -6,8 +6,8 @@
                     <p class="footer__data">
                         <a href="mailto:">e-mail: biuro@nadrukireklamowe.pl</a><br>
                         85-875 Bydgoszcz, ul. Miechowska 1<br>
-                        <a href="tel:52 381 81 41">tel. - 52 381 81 41</a><br>
-                        <a href="tel:52 515 31 00">tel. - 52 515 31 00</a><br>
+                        <a href="tel:523818141">tel. - 52 381 81 41</a><br>
+                        <a href="tel:525153100">tel. - 52 515 31 00</a><br>
                         NIP 5542066541<br>
                     </p>
                     <p class="footer__data">
@@ -18,21 +18,19 @@
                     </p>
                 </div>
                 <div>
-                    <h3 contact__title></h3>
                     <p class="footer__subtitle">Katarzyna Strzelewicz</p>
                     <p class="contact__data">
                         zamówienia/projekty<br>
                         <a href="mailto:biuro@nadrukireklamowe.pl">e-mail: biuro@nadrukireklamowe.pl</a><br>
-                        <a href="tel:606 711 620">tel. kom.  - 606 711 620</a><br>
+                        <a href="tel:606711620">tel. kom. - 606 711 620</a><br>
                     </p>
                 </div>
                 <div>
-                    <h3 contact__title></h3>
                     <p class="footer__subtitle">Małgorzata Zawadka</p>
                     <p class="contact__data">
                         zamówienia/projekty<br>
                         <a href="mailto:gosia@balonyreklamowe.com.pl">e-mail: gosia@balonyreklamowe.com.pl</a><br>
-                        <a href="tel:887 372 069">tel. kom.  - 887 372 069</a><br>
+                        <a href="tel:887372069">tel. kom. - 887 372 069</a><br>
                     </p>
                 </div>
             </div>

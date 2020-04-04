@@ -6,6 +6,7 @@
     <title>Nadruki Reklamowe - o nas, poligrafii, sitodruku i więcej...</title>
     <?php wp_head(); ?>
 </head>
+<body>
     <header>
         <aside class="socials" id="socials">
             <div class="socials__icons">
@@ -16,7 +17,7 @@
                 <a rel="noopener norefferer nofollow" href="https://www.youtube.com/channel/UCaKZLi3IEPZX-DRi5R83PVg"><img src="/blog/wp-content/uploads/2020/03/youtube-icon.png" alt="youtube icon" class="socials__icon"></a>
             </div>
             <div class="socials__contact">
-                <a href="tel:52 381 81 41">zadzwoń <span class="socials__expanded">- 52 381 81 41</span></a>
+                <a href="tel:523818141">zadzwoń <span class="socials__expanded">- 52 381 81 41</span></a>
                 <a href="mailto:biuro@nadrukireklamowe.com.pl">napisz @ <span class="socials__expanded">biuro@nadrukireklamowe.com.pl</span></a>
             </div>
         </aside>
@@ -108,4 +109,3 @@
         </nav>
         <button class="sidenav__background" id="navBackground" aria-label="close menu"></button>
     </header>
-<body>

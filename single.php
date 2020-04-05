@@ -9,7 +9,7 @@
         // else echo "/blog";
         echo wp_get_referer();
     ?>" class="single__link">
-        < wróć do poprzedniej strony
+        &lt; wróć do poprzedniej strony
     </a>
     <?php get_template_part('/includes/section', 'blogcontent'); ?>
 </main>

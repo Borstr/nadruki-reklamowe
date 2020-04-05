@@ -364,7 +364,7 @@ h3 {
   padding: 0 1rem; }
   .sidenav::-webkit-scrollbar {
     background-color: #0f4c81;
-    width: 4rem; }
+    width: .5rem; }
   .sidenav::-webkit-scrollbar-thumb {
     background-color: #f0c05a; }
   .sidenav * {

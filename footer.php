@@ -57,70 +57,70 @@
                 <p class="footer__subtitle">Mapa strony:</p>
                 <ul class="footer__list">
                     <li>
-                        <a href="/" class="footer__link">/</a>
+                        <a href="/" class="footer__link">Strona główna</a>
                     </li>
                     <li>
-                        <a href="/dlugopisy.html" class="footer__link">/długopisy</a>
+                        <a href="/dlugopisy.html" class="footer__link">Długopisy</a>
                     </li>
                     <li>
-                        <a href="/balony.html" class="footer__link">/balony</a>
+                        <a href="/balony.html" class="footer__link">Balony</a>
                     </li>
                     <li>
-                        <a href="/torby-papierowe-z-nadrukiem.html" class="footer__link">/torby papierowe</a>
+                        <a href="/torby-papierowe-z-nadrukiem.html" class="footer__link">Torby papierowe</a>
                     </li>
                     <li>
-                        <a href="/reklamowki.html" class="footer__link">/reklamówki</a>
+                        <a href="/reklamowki.html" class="footer__link">Reklamówki</a>
                     </li>
                     <li>
-                        <a href="/torby-bawelniane-materialowe.html" class="footer__link">/torby bawełniane, materiałowe</a>
+                        <a href="/torby-bawelniane-materialowe.html" class="footer__link">Torby bawełniane, materiałowe</a>
                     </li>
                     <li>
-                        <a href="/koszulki-z-nadrukiem.html" class="footer__link">/koszulki</a>
+                        <a href="/koszulki-z-nadrukiem.html" class="footer__link">Koszulki</a>
                     </li>
                     <li>
-                        <a href="/koszulki-damskie-z-nadrukiem.html" class="footer__link">/koszulki damskie</a>
+                        <a href="/koszulki-damskie-z-nadrukiem.html" class="footer__link">Koszulki damskie</a>
                     </li>
                     <li>
-                        <a href="/koszulki-dzieciece.html" class="footer__link">/koszulki dziecięce</a>
+                        <a href="/koszulki-dzieciece.html" class="footer__link">Koszulki dziecięce</a>
                     </li>
                     <li>
-                        <a href="/bluzy.html" class="footer__link">/bluzy</a>
+                        <a href="/bluzy.html" class="footer__link">Bluzy</a>
                     </li>
                     <li>
-                        <a href="/kurtki.html" class="footer__link">/kurtki</a>
+                        <a href="/kurtki.html" class="footer__link">Kurtki</a>
                     </li>
                     <li>
-                        <a href="/czapki-z-daszkiem.html" class="footer__link">/czapki z daszkiem</a>
+                        <a href="/czapki-z-daszkiem.html" class="footer__link">Czapki z daszkiem</a>
                     </li>
                     <li>
-                        <a href="/przypinki.html" class="footer__link">/przypinki, buttony, badziki</a>
+                        <a href="/przypinki.html" class="footer__link">Przypinki, buttony, badziki</a>
                     </li>
                     <li>
-                        <a href="/podkladki.html" class="footer__link">/podkładki</a>
+                        <a href="/podkladki.html" class="footer__link">Podkładki</a>
                     </li>
                     <li>
-                        <a href="/kubki.html" class="footer__link">/kubki</a>
+                        <a href="/kubki.html" class="footer__link">Kubki</a>
                     </li>
                     <li>
-                        <a href="/parasole.html" class="footer__link">/parasole</a>
+                        <a href="/parasole.html" class="footer__link">Parasole</a>
                     </li>
                     <li>
-                        <a href="/otwieracze.html" class="footer__link">/otwieracze</a>
+                        <a href="/otwieracze.html" class="footer__link">Otwieracze</a>
                     </li>
                     <li>
-                        <a href="/puzzle.html" class="footer__link">/puzzle</a>
+                        <a href="/puzzle.html" class="footer__link">Puzzle</a>
                     </li>
                     <li>
-                        <a href="/zapalniczki.html" class="footer__link">/zapalniczki</a>
+                        <a href="/zapalniczki.html" class="footer__link">Zapalniczki</a>
                     </li>
                     <li>
-                        <a href="/kontakt.html" class="footer__link">/kontakt</a>
+                        <a href="/kontakt.html" class="footer__link">Kontakt</a>
                     </li>
                     <li>
-                        <a href="/blog" class="footer__link">/blog</a>
+                        <a href="/blog" class="footer__link">Blog</a>
                     </li>
                     <li>
-                        <a href="/blog/archiwum" class="footer__link">/archiwum</a>
+                        <a href="/blog/archiwum" class="footer__link">Archiwum</a>
                     </li>
                 </ul>
             </div>

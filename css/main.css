@@ -242,7 +242,7 @@ h3 {
   .postcontent img {
     height: auto;
     width: 100%;
-    margin-bottom: 1rem; }
+    margin: 1rem 0; }
   .postcontent h1,
   .postcontent h2,
   .postcontent h3 {

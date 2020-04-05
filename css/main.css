@@ -134,6 +134,7 @@ a {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 300;
+  font-display: swap;
   src: url("/wp-content/uploads/fonts/roboto-v20-latin-ext_latin-300.eot");
   /* IE9 Compat Modes */
   src: local("Roboto Light"), local("Roboto-Light"), url("/wp-content/uploads/fonts/roboto-v20-latin-ext_latin-300.eot?#iefix") format("embedded-opentype"), url("/wp-content/uploads/fonts/roboto-v20-latin-ext_latin-300.woff2") format("woff2"), url("/wp-content/uploads/fonts/roboto-v20-latin-ext_latin-300.woff") format("woff"), url("/wp-content/uploads/fonts/roboto-v20-latin-ext_latin-300.ttf") format("truetype"); }
@@ -143,6 +144,7 @@ a {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
   src: url("/fonts/roboto-v20-latin-ext_latin-regular.eot");
   /* IE9 Compat Modes */
   src: local("Roboto"), local("Roboto-Regular"), url("/fonts/roboto-v20-latin-ext_latin-regular.eot?#iefix") format("embedded-opentype"), url("/fonts/roboto-v20-latin-ext_latin-regular.woff2") format("woff2"), url("/fonts/roboto-v20-latin-ext_latin-regular.woff") format("woff"), url("/fonts/roboto-v20-latin-ext_latin-regular.ttf") format("truetype"); }
@@ -152,6 +154,7 @@ a {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
+  font-display: swap;
   src: url("/wp-content/uploads/fonts/roboto-v20-latin-ext_latin-700.eot");
   /* IE9 Compat Modes */
   src: local("Roboto Bold"), local("Roboto-Bold"), url("/wp-content/uploads/fonts/roboto-v20-latin-ext_latin-700.eot?#iefix") format("embedded-opentype"), url("/wp-content/uploads/fonts/roboto-v20-latin-ext_latin-700.woff2") format("woff2"), url("/wp-content/uploads/fonts/roboto-v20-latin-ext_latin-700.woff") format("woff"), url("/wp-content/uploads/fonts/roboto-v20-latin-ext_latin-700.ttf") format("truetype"); }
@@ -360,7 +363,8 @@ h3 {
   overflow-y: scroll;
   padding: 0 1rem; }
   .sidenav::-webkit-scrollbar {
-    background-color: #0f4c81; }
+    background-color: #0f4c81;
+    width: 4rem; }
   .sidenav::-webkit-scrollbar-thumb {
     background-color: #f0c05a; }
   .sidenav * {
@@ -391,7 +395,7 @@ h3 {
       border-top: none; }
   .sidenav__background {
     border: none;
-    margin: none;
+    margin: 0;
     background-color: rgba(0, 0, 0, 0.5);
     cursor: pointer;
     width: 100vw;

@@ -6,7 +6,7 @@
     "scripts": {
         "scss": "node-sass scss -o css",
         "watch:scss": "node-sass --watch scss -o css",
-        "minify-css": "css-minify -d css",
+        "minify-css": "css-minify -f css/main.css",
         "build": "npm run scss && npm run minify-css",
         "dev": "npm run watch:scss"
     },

@@ -37,7 +37,7 @@
             <button class="menu__offer" id="menuBtn" aria-label="otwórz menu">
                 Oferta 
                 <svg xmlns="http://www.w3.org/2000/svg" id="chevron" class="chevron" viewBox="0 0 10.349 17.743">
-                    <path d="M1990,138.468l6.727,6.75-6.727,6.75" transform="translate(-1987.879 -136.346)" fill="none" stroke="#f0c05a" stroke-linecap="round" stroke-width="3" />
+                    <path d="M1990,138.468l6.727,6.75-6.727,6.75" transform="translate(-1987.879 -136.346)" fill="none" stroke="#FD9D67 " stroke-linecap="round" stroke-width="3" />
                 </svg>
             </button>
             <a href="/" class="menu__title">

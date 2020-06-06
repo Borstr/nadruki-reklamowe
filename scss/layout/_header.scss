@@ -140,13 +140,13 @@
         padding: .5rem 1rem;
         font-size: 20px;
         text-decoration: none;
-        border: 1px solid $main_complementary_light;
+        border: 1px dashed $main_complementary_light;
         border-left: none;
         border-right: none;
-        transition: 300ms ease-in-out background-color;
+        transition: 300ms ease-in-out color;
         &:hover,
         &:focus {
-            background-color: $main_complementary_light;
+            color: $main_complementary_light;
         }
         &:first-of-type {
             border-top: none;

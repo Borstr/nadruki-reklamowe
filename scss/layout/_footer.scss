@@ -30,14 +30,9 @@
         grid-template-rows: repeat(auto-fill, 1rem);
     }
     &__link {
-        color: $link_color;
-        transition: 300ms ease-in-out color;
         width: 100%;
         display: block;
-        &:hover,
-        &:focus {
-            color: $link_color_hover;
-        }
+        color: $link_color;
     }
 }
 

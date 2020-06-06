@@ -119,9 +119,6 @@
                     <li>
                         <a href="/blog" class="footer__link">Blog</a>
                     </li>
-                    <li>
-                        <a href="/blog/archiwum" class="footer__link">Archiwum</a>
-                    </li>
                 </ul>
             </div>
         </footer>

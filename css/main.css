@@ -179,6 +179,13 @@ h3 {
   font-weight: bold;
   color: #000; }
 
+a {
+  color: #ff650d;
+  transition: 300ms ease-in-out color;
+  font-weight: bold; }
+  a:hover, a:focus {
+    color: #FD9D67; }
+
 .postlist {
   display: grid;
   grid-template-columns: 1fr;
@@ -224,7 +231,7 @@ h3 {
     .postlist__imageContainer {
       height: auto; }
     .postlist__link:hover .postlist__title, .postlist__link:focus .postlist__title {
-      color: #f0c05a; } }
+      color: #ff650d; } }
 
 .postcontent {
   font-size: 18px;
@@ -255,6 +262,11 @@ h3 {
   .postcontent ul {
     list-style-type: square;
     padding-left: 3rem; }
+  .postcontent a {
+    color: #ff650d;
+    transition: 300ms ease-in-out color; }
+    .postcontent a:hover, .postcontent a:focus {
+      color: #FD9D67; }
 
 @media (min-width: 768px) {
   .postcontent img {
@@ -358,7 +370,7 @@ h3 {
   top: 60px;
   width: 300px;
   height: calc(100vh - 60px);
-  background-color: #0B61A6;
+  background-color: #0f3d81;
   z-index: 1;
   overflow-y: scroll;
   padding: 0 1rem; }
@@ -366,7 +378,7 @@ h3 {
     background-color: #0f4c81;
     width: .5rem; }
   .sidenav::-webkit-scrollbar-thumb {
-    background-color: #f0c05a; }
+    background-color: #FD9D67; }
   .sidenav * {
     color: #fff; }
   .sidenav--right {
@@ -385,12 +397,12 @@ h3 {
     padding: .5rem 1rem;
     font-size: 20px;
     text-decoration: none;
-    border: 1px solid #f0c05a;
+    border: 1px dashed #FD9D67;
     border-left: none;
     border-right: none;
-    transition: 300ms ease-in-out background-color; }
+    transition: 300ms ease-in-out color; }
     .sidenav__item:hover, .sidenav__item:focus {
-      background-color: #f0c05a; }
+      color: #FD9D67; }
     .sidenav__item:first-of-type {
       border-top: none; }
   .sidenav__background {
@@ -563,12 +575,9 @@ h3 {
     grid-row-gap: 1rem;
     grid-template-rows: repeat(auto-fill, 1rem); }
   .footer__link {
-    color: #f0f0f0;
-    transition: 300ms ease-in-out color;
     width: 100%;
-    display: block; }
-    .footer__link:hover, .footer__link:focus {
-      color: #c0c0c0; }
+    display: block;
+    color: #ff650d; }
 
 @media (min-width: 768px) {
   .footer {
@@ -611,7 +620,9 @@ h3 {
 
 @media (min-width: 1024px) {
   .frontpage {
+    width: 80vw;
     min-width: 1024px;
+    margin: 0 auto;
     margin-top: 76px; }
     .frontpage__title {
       margin-bottom: 2rem; } }

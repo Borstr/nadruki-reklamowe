@@ -34,6 +34,14 @@
         list-style-type: square;
         padding-left: 3rem;
     }
+    a {
+        color: $link_color;
+        transition: 300ms ease-in-out color;
+        &:hover,
+        &:focus {
+            color: $link_color_hover;
+        }
+    }
 }
 
 @media(min-width: 768px) {

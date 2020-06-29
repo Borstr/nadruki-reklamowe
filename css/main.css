@@ -270,9 +270,7 @@ a {
 
 @media (min-width: 768px) {
   .postcontent img {
-    margin-left: 1rem;
-    max-width: 50%;
-    float: right; }
+    max-width: 100%; }
   .postcontent ul {
     padding-left: 3rem;
     margin-bottom: .5rem; }

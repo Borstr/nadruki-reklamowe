@@ -270,7 +270,8 @@ a {
 
 @media (min-width: 768px) {
   .postcontent img {
-    max-width: 100%; }
+    width: auto;
+    margin: 0; }
   .postcontent ul {
     padding-left: 3rem;
     margin-bottom: .5rem; }

@@ -180,11 +180,11 @@ h3 {
   color: #000; }
 
 a {
-  color: #ff650d;
+  color: #AB6859;
   transition: 300ms ease-in-out color;
   font-weight: bold; }
   a:hover, a:focus {
-    color: #FD9D67; }
+    color: #D98472; }
 
 .postlist {
   display: grid;
@@ -231,7 +231,7 @@ a {
     .postlist__imageContainer {
       height: auto; }
     .postlist__link:hover .postlist__title, .postlist__link:focus .postlist__title {
-      color: #ff650d; } }
+      color: #AB6859; } }
 
 .postcontent {
   font-size: 18px;
@@ -263,10 +263,10 @@ a {
     list-style-type: square;
     padding-left: 3rem; }
   .postcontent a {
-    color: #ff650d;
+    color: #AB6859;
     transition: 300ms ease-in-out color; }
     .postcontent a:hover, .postcontent a:focus {
-      color: #FD9D67; }
+      color: #D98472; }
 
 @media (min-width: 768px) {
   .postcontent img {
@@ -317,7 +317,7 @@ a {
 .menu {
   width: 100vw;
   height: 60px;
-  background-color: #0f4c81;
+  background-color: #E7B45F;
   position: fixed;
   top: 0;
   left: 0;
@@ -369,12 +369,12 @@ a {
   top: 60px;
   width: 300px;
   height: calc(100vh - 60px);
-  background-color: #0f3d81;
+  background-color: #E7B45F;
   z-index: 1;
   overflow-y: scroll;
   padding: 0 1rem; }
   .sidenav::-webkit-scrollbar {
-    background-color: #0f4c81;
+    background-color: #E7B45F;
     width: .5rem; }
   .sidenav::-webkit-scrollbar-thumb {
     background-color: #FD9D67; }
@@ -549,7 +549,7 @@ a {
       transform: rotate(0); } } }
 
 .footer {
-  background-color: #0f4c81;
+  background-color: #E7B45F;
   width: 100%;
   box-shadow: 0 -3px 4px rgba(0, 0, 0, 0.12), 0 -4px 5px rgba(0, 0, 0, 0.24);
   padding: 2rem 1rem;
@@ -557,7 +557,7 @@ a {
   display: grid;
   grid-gap: 1.5rem 1rem; }
   .footer * {
-    color: #fff; }
+    color: #212121; }
   .footer__subtitle {
     font-weight: bold; }
   .footer__item {
@@ -576,7 +576,7 @@ a {
   .footer__link {
     width: 100%;
     display: block;
-    color: #ff650d; }
+    color: #AB6859; }
 
 @media (min-width: 768px) {
   .footer {

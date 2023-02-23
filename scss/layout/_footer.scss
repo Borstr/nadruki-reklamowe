@@ -1,0 +1,67 @@
+.footer {
+    background-color: $main_light;
+    width: 100%;
+    box-shadow: 0 -3px 4px rgba(0, 0, 0, .12), 0 -4px 5px rgba(0, 0, 0, .24);
+    padding: 2rem 1rem;
+    margin-top: 2rem;
+    display: grid;
+    grid-gap: 1.5rem 1rem;
+    & * {
+        color: $light_text_color;
+    }
+    &__subtitle {
+        font-weight: bold;
+    }
+    &__item {
+        display: grid;
+        grid-row-gap: .5rem;
+        grid-template-columns: min-content;
+    }
+    &__data {
+        margin-bottom: 1rem;
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+    }
+    &__list {
+        padding-top: .5rem;
+        display: grid;
+        grid-row-gap: 1rem;
+        grid-template-rows: repeat(auto-fill, 1rem);
+    }
+    &__link {
+        width: 100%;
+        display: block;
+        color: $link_color;
+    }
+}
+
+@media(min-width: 768px) {
+    .footer {
+        &__item--1 {
+            grid-area: item1;
+        }
+        &__item--2 {
+            grid-area: item2;
+        }
+        &__item--3 {
+            grid-area: item3;
+        }
+        &__item--4 {
+            grid-area: item4;
+        }
+        &__subtitle {
+            font-weight: bold;
+        }
+        &__sitemap {
+            grid-area: sitemap;
+        }
+        grid-template: "item1 sitemap" "item2 sitemap" "item3 sitemap" "item4 sitemap" / auto;
+    }
+}
+
+@media(min-width: 1024px) {
+    .footer {
+        grid-template: ". item2 item1 sitemap ." ". item3 item1 sitemap ." ". item4 item1 sitemap ." ". . item1 sitemap ." ". . . sitemap ." / 1fr 300px 300px 300px 1fr;
+    }
+}
